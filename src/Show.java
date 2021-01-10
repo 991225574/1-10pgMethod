@@ -15,7 +15,7 @@ public class Show {
         Scanner input=new Scanner(System.in);  //新建输入库
         System.out.println("请输入学生姓名：");
         name=input.next();                      //接收输入值
-        System.out.println("请输入联系方式：");
+        System.out.println("请输入联系方式的：");
         number=input.nextInt();
 
         //实例化student类，然后赋值它继承User的变量
